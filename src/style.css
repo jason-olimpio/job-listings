@@ -6,7 +6,9 @@ body {
 
 main {
   padding: 0 100px;
-}body {
+}
+
+body {
   margin: 0;
   background-color: hsl(180, 52%, 96%);
   font-family: "League Spartan", sans-serif;
@@ -29,8 +31,7 @@ header img {
 
 main {
   width: 100%;
-  max-width: 1110px;
-  padding: 0 20px;
+  padding: 0 150px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -43,7 +44,6 @@ main {
 }
 
 #jobs-list {
-  margin-top: 40px;
   display: flex;
   flex-direction: column;
   gap: 24px;

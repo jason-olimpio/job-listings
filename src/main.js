@@ -73,4 +73,6 @@ const updateUI = () => {
 };
 
 jobs = await loadJobs();
+
+console.log({ jobs })
 updateUI();

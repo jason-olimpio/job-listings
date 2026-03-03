@@ -9,8 +9,8 @@ const JobCard = (
     contract,
     location,
     keywords,
-    isNew,
-    isFeatured
+    featured,
+    new: isNew
   },
   onTagClick
 ) => {
@@ -26,7 +26,7 @@ const JobCard = (
         <div class="company-row">
           <span class="company-name">${company}</span>
           ${isNew ? '<span class="badge new">NEW!</span>' : ''}
-          ${isFeatured ? '<span class="badge featured">FEATURED</span>' : ''}
+          ${featured ? '<span class="badge featured">FEATURED</span>' : ''}
         </div>
 
         <h2 class="position">${position}</h2>
