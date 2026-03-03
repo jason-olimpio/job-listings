@@ -2,13 +2,13 @@
 
 A functional job board featuring dynamic filtering by tags. Users can filter listings by role, level, and tools/languages. This project focuses on efficient DOM manipulation, clean state management, and responsive design.
 
-## 🚀 Features
+## Features
 
 * **Dynamic Filtering:** Filter jobs by clicking on tags or using the top filter bar.
 * **Responsive Design:** Optimized for mobile and desktop.
 * **State-Driven UI:** The interface updates automatically when filters are added, removed, or cleared.
 
-## 🛠️ Built With
+## Built With
 
 * **Vanilla JavaScript:** ES6+ features, including `async/await`, destructuring, and template literals.
 * **Vite:** For fast development and optimized production builds.e.
@@ -16,7 +16,7 @@ A functional job board featuring dynamic filtering by tags. Users can filter lis
 
 ```
 
-## 📦 Installation & Setup
+## Installation & Setup
 
 1. **Clone the repository:**
 ```bash
