@@ -14,8 +14,6 @@ A functional job board featuring dynamic filtering by tags. Users can filter lis
 * **Vite:** For fast development and optimized production builds.e.
 * **Flexbox:** To handle complex layouts across different screen sizes.
 
-```
-
 ## Installation & Setup
 
 1. **Clone the repository:**
