@@ -11,7 +11,7 @@ A functional job board featuring dynamic filtering by tags. Users can filter lis
 ## Built With
 
 * **Vanilla JavaScript:** ES6+ features, including `async/await`, destructuring, and template literals.
-* **Vite:** For fast development and optimized production builds.e.
+* **Vite:** For fast development and optimized production builds.
 * **Flexbox:** To handle complex layouts across different screen sizes.
 
 ## Installation & Setup
