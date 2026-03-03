@@ -55,3 +55,9 @@ main {
   flex-direction: column;
   gap: 20px;
 }
+
+@media (max-width: 768px) {
+  main {
+    padding: 0 24px;
+  }
+}

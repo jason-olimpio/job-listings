@@ -6,7 +6,10 @@ let activeFilters = [];
 
 document.querySelector('#app').innerHTML = `
   <header>
-    <img src="images/bg-header-desktop.svg" alt='Header Background'>
+    <picture>
+      <source media="(max-width: 500px)" srcset="images/bg-header-mobile.svg">
+      <img src="images/bg-header-desktop.svg" alt='Header Background'>
+    </picture>
   </header>
 
   <main>
@@ -16,7 +19,7 @@ document.querySelector('#app').innerHTML = `
 `;
 
 const loadJobs = async () => {
-  const result = await fetch('/data.json');
+  const result = await fetch('./data.json');
 
   if (!result.ok) throw new Error(`Failed to load data.json`);
 
@@ -74,5 +77,4 @@ const updateUI = () => {
 
 jobs = await loadJobs();
 
-console.log({ jobs })
 updateUI();
