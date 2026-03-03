@@ -1,0 +1,57 @@
+.job-card {
+  background-color: white;
+  padding: 25px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 10px 15px 0 hsla(180, 8%, 52%, 0.2);
+}
+
+.job-info {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+
+.position,
+.meta,
+.company-row {
+  margin: 0;
+}
+
+.company-name {
+  font-size: 15px;
+  color: hsl(180, 29%, 50%);
+  font-weight: bold;
+}
+
+.position {
+  font-size: 18px;
+}
+
+.meta {
+  color: hsl(180, 8%, 52%);
+}
+
+.tags {
+  display: flex;
+  gap: 20px;
+}
+
+.tag {
+  padding: 8px;
+  color: hsl(180, 29%, 50%);
+  font-weight: bold;
+  background-color: hsl(180, 52%, 96%);
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}

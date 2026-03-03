@@ -1,0 +1,47 @@
+.filters-container {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 10px 15px 0 hsla(180, 8%, 52%, 0.2);
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.filter-tags {
+    display: flex;
+    gap: 20px;
+}
+
+.filter-pill {
+    display: flex;
+}
+
+.tag-name {
+    padding: 8px 10px;
+    color: hsl(180, 29%, 50%);
+    font-weight: bold;
+    background-color: hsl(180, 52%, 96%);
+    border-radius: 10px 0 0 10px;
+}
+
+.remove-btn {
+    padding: 8px 10px;
+    border: none;
+    background-color: hsl(180, 29%, 50%);
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+
+.remove-btn:hover {
+    background-color: hsl(180, 29%, 20%);
+}
+
+.clear-btn {
+    border: none;
+    color: hsl(180, 29%, 50%);
+    background-color: white;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bold;
+}
