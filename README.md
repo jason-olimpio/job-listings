@@ -1,7 +1,3 @@
-Here is a professional `README.md` tailored for your Job Listings project. It highlights the clean logic you've implemented, like guard clauses and dynamic filtering.
-
----
-
 # Job Listings
 
 A functional job board featuring dynamic filtering by tags. Users can filter listings by role, level, and tools/languages. This project focuses on efficient DOM manipulation, clean state management, and responsive design.
