@@ -3,8 +3,8 @@ import { Filters, JobCard } from './components';
 
 let jobs = [];
 let activeFilters = [];
-
 let visibleCount = 4;
+
 const PAGE_SIZE = 4;
 
 let observer;
