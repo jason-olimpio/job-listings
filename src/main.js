@@ -56,7 +56,7 @@ const renderFilters = () => {
   const filterBar = Filters({
     activeFilters,
     onRemove: tag => {
-      activeFilters = activeFilters.filter(f => f !== tag);
+      activeFilters = activeFilters.filter(filter => filter !== tag);
       visibleCount = PAGE_SIZE;
       updateUI();
     },
